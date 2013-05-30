@@ -1,0 +1,60 @@
+
+  Jevix Version 0.9.9 (utf-8 & windows1251)
+
+  Developed by Igor Askarov
+ 
+  Please send all bug reports and suggestions to
+  Igor Askarov <juks@juks.ru>
+  http://www.jevix.ru/
+
+  Release date: 11/04/2011
+
+
+  Changelog:
+  [0.9.9]
+	  11.12.2012: quotes bug fixed
+  [0.9.8]
+          11.04.2011: tagQuoteValues bug fixed
+  [0.9.7]
+	  18.02.2009: now we are able to close unclosed tags
+	  19.01.2009: tags "pre" and "code" now remain untouched
+	  19.01.2009: "tagQuoteValues" bug fixed processing tags like "<h1>"
+          23.12.2008: configuration key for using "vanish" function added
+  [0.9.6] 
+	  20.12.2008: dashes bugfix by Andrew Hitrov (Rambler)
+          20.12.2008: configuration methods improved
+          20.12.2008: test script is now the part of the distribution
+          20.12.2008: improved implementation of <a> tags
+	  20.12.2008: major tag & tag properties filter bugs fixed
+	  04.03.2008: automatic implementation of <a> tags added
+  [0.9.5]
+          20.01.2008: tag & tag properties filter logic has been improved
+	  20.01.2008: advanced configuration string parser added to base class
+          15.01.2008: minor bugs fixed
+          20.12.2007: XSS protection and tag & tag properties filter added
+  [0.9.4]
+          10.05.2007: improved <br> markup
+          07.05.2007: improved quotes markup
+          07.05.2007: improved paragraph markup
+          03.05.2007: UTF-8 and Windows-1251 versions are now available
+          24.04.2007: added "vanish" function (brings the text to plain mode)
+          19.04.2007: fixed several bugs in quotes function
+          17.04.2007: improved paragraph markup
+          12.04.1007: several minor bugs fixed
+          10.04.2007: added "quote mismatch" logging
+                      improved quote mismatch processing
+  [0.9.3]
+          05.04.2007: improved non-breaking spaces markup logic (between digits)
+          03.04.2007: improved hyphen markup logic
+          02.04.2007: added misc substututions (fracs, (c)->&copy, etc)
+  [0.9.2]
+          27.03.2007: added capability for putting composite words inside <nobr> tag
+          23.03.2007: added removal for crs & lfs after dropped tags
+                      added removal for "between-tags" spaces (like </td> </tr>)
+          22.03.2007: fixed bug: br markup (\n right after tag)
+                      fixed bug: script-like tags processing
+  [0.9.1]
+          20.03.2007: improved cuttags function perfomance
+                      improved paragraph markup rules
+                      added removal for edge spaces
+          16.03.2007: improved quotes logic for a case like: "hello "world" "
