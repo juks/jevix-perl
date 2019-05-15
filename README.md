@@ -1,4 +1,4 @@
 jevix-perl
 ==========
 
-Text makeup and html processing perl module
+Text makeup and html processing perl module (http://jevix.ru/)
